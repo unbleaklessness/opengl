@@ -1,6 +1,10 @@
 #ifndef  __GLUT_H__
 #define  __GLUT_H__
 
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 /*
  * glut.h
  *
